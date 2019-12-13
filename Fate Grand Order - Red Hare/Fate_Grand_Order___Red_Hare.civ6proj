@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Fate Grand Order - Red Hare</Name>
+    <Name>Fate_Grand_Order___Red_Hare</Name>
     <Guid>86c616e4-83a4-49ed-a374-bcaa9e2a2e3d</Guid>
     <ProjectGuid>2f1f5677-c55c-4631-bd32-1f8eaf242198</ProjectGuid>
     <ModVersion>1</ModVersion>
