@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Fate Grand Order - Red Hare</Name>
+    <Guid>86c616e4-83a4-49ed-a374-bcaa9e2a2e3d</Guid>
+    <ProjectGuid>2f1f5677-c55c-4631-bd32-1f8eaf242198</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Huh!</Teaser>
+    <Description>This is the last Mod of my Civilization 6, I hope everyone can enjoy it, and I have opened the source code and tutorials.
+
+Special thanks:
+https://fgo.wiki/
+https://fategrandorder.fandom.com/wiki/
+
+Github:
+https://github.com/HaoJun0823/Civ6Fate-RedHare</Description>
+    <Authors>HaoJun0823</Authors>
+    <SpecialThanks>All players, modders and TYPE-MOON.</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Fate Grand Order - Red Hare</AssemblyName>
+    <RootNamespace>Fate Grand Order - Red Hare</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="RedHareData"><File>Data/FGO_RED_HARE_CONFIGS.xml</File></UpdateDatabase><UpdateText id="RedHareText"><File>Loc/FGO_RED_HARE_CONFIG_LOC.xml</File></UpdateText><UpdateIcons id="RedHareIcon"><File>Data/FGO_RED_HARE_ICONS.xml</File></UpdateIcons><UpdateColors id="RedHareColor"><File>Data/FGO_RED_HARE_COLORS.xml</File></UpdateColors><UpdateArt id="RedHareArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="RedHareGameData"><File>Data/FGO_RED_HARE_LEADERS.xml</File><File>Data/FGO_RED_HARE_SQL.sql</File></UpdateDatabase><UpdateColors id="RedHareGameColor"><File>Data/FGO_RED_HARE_COLORS.xml</File></UpdateColors><UpdateIcons id="RedHareGameIcon"><File>Data/FGO_RED_HARE_ICONS.xml</File></UpdateIcons><UpdateLogitechARX id="RedHareGameARX"><File>Data/ARX/Civ_LEADER_FGO_RED_HARE.png</File></UpdateLogitechARX><UpdateText id="RedHareGameText"><File>Loc/FGO_RED_HARE_LOC.xml</File><File>Loc/FGO_RED_HARE_CONFIG_LOC.xml</File></UpdateText><UpdateArt id="RedHareGameArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_FGO_RED_HARE,Players:Expansion1_Players::LEADER_FGO_RED_HARE,Players:Expansion2_Players::LEADER_FGO_RED_HARE</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Homepage>https://https://steamcommunity.com/id/HaoJun0823/</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Fate_Grand_Order___Red_Hare.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Data\ARX" />
+    <Folder Include="Loc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\ARX\Civ_LEADER_FGO_RED_HARE.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\FGO_RED_HARE_COLORS.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\FGO_RED_HARE_CONFIGS.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\FGO_RED_HARE_ICONS.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\FGO_RED_HARE_LEADERS.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\FGO_RED_HARE_SQL.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Loc\FGO_RED_HARE_CONFIG_LOC.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Loc\FGO_RED_HARE_LOC.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

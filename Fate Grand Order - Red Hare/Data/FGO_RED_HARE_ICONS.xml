@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FGO_RED_HARE_ICONS -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/13/2019 11:23:31 AM -->
+<GameData>
+
+		<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_256.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_80.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_64.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_55.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_50.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_48.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_45.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_FGO_RED_HARE_ATLAS_32.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_FGO_RED_HARE" Atlas="ATLAS_LEADER_LEADER_FGO_RED_HARE_ATLAS" index="0"/>
+	</IconDefinitions>
+	
+</GameData>

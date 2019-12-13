@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FGO_RED_HARE_LEADERS -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/13/2019 11:23:06 AM -->
+<GameData>
+
+		<Types>
+			<Row Type="LEADER_FGO_RED_HARE" Kind="KIND_LEADER"/>
+			<Row Type="TRAIT_AGENDA_FGO_RED_HARE_UNIQUE" Kind="KIND_TRAIT"/>
+			<Row Type="TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT" Kind="KIND_TRAIT"/>
+			<!--
+			<Row Type="TRAIT_LEADER_FGO_RED_HARE_HUMAN_CHITU" Kind="KIND_TRAIT"/>
+			<Row Type="TRAIT_LEADER_FGO_RED_HARE_HORSE_LVBU" Kind="KIND_TRAIT"/>
+			-->
+		</Types>
+
+		<Leaders>
+			<Row LeaderType="LEADER_FGO_RED_HARE" Name="LOC_LEADER_FGO_RED_HARE_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male"/>
+		</Leaders>
+
+		<LeaderQuotes>
+			<Row LeaderType="LEADER_FGO_RED_HARE" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_FGO_RED_HARE_QUOTE"/>
+		</LeaderQuotes>
+
+		<CivilizationLeaders>
+			<!-- Game Text-->
+			<Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_FGO_RED_HARE" CapitalName="LOC_CITY_NAME_FGO_RED_HARE_REAL_CAPITAL"/>
+		</CivilizationLeaders>
+
+		<Traits>
+			<Row TraitType="TRAIT_AGENDA_FGO_RED_HARE_UNIQUE" Name="LOC_TRAIT_AGENDA_FGO_RED_HARE_UNIQUE_NAME" Description="LOC_TRAIT_AGENDA_FGO_RED_HARE_UNIQUE_DESC"/>
+			<Row TraitType="TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT" Name="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_NAME" Description="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_DESC"/>
+			<!--
+			<Row TraitType="TRAIT_LEADER_FGO_RED_HARE_HUMAN_CHITU" Name="LOC_TRAIT_LEADER_FGO_RED_HARE_HUMAN_CHITU_NAME" Description="LOC_TRAIT_LEADER_FGO_RED_HARE_HUMAN_CHITU_DESC"/>
+			<Row TraitType="TRAIT_LEADER_FGO_RED_HARE_HORSE_LVBU" Name="LOC_TRAIT_LEADER_FGO_RED_HARE_HORSE_LVBU_NAME" Description="LOC_TRAIT_LEADER_FGO_RED_HARE_HORSE_LVBU_DESC"/>
+			-->
+		</Traits>
+
+		<LeaderTraits>
+			<Row LeaderType="LEADER_FGO_RED_HARE" TraitType="TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT"/>
+			<!--
+			<Row LeaderType="LEADER_FGO_RED_HARE" TraitType="TRAIT_LEADER_FGO_RED_HARE_HUMAN_CHITU"/>
+			<Row LeaderType="LEADER_FGO_RED_HARE" TraitType="TRAIT_LEADER_FGO_RED_HARE_HORSE_LVBU"/>
+			-->
+		</LeaderTraits>
+
+		<Agendas>
+			<Row AgendaType="AGENDA_FGO_RED_HARE_UNIQUE" Name="LOC_AGENDA_FGO_RED_HARE_UNIQUE_NAME" Description="LOC_AGENDA_FGO_RED_HARE_UNIQUE_DESC"/>
+		</Agendas>
+
+		<HistoricalAgendas>
+			<Row LeaderType="LEADER_FGO_RED_HARE" AgendaType="AGENDA_FGO_RED_HARE_UNIQUE"/>
+		</HistoricalAgendas>
+
+		<AgendaTraits>
+			<Row AgendaType="AGENDA_FGO_RED_HARE_UNIQUE" TraitType="TRAIT_AGENDA_FGO_RED_HARE_UNIQUE"/>
+		</AgendaTraits>
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_FGO_RED_HARE" ReligionType="RELIGION_TAOISM"/>
+	</FavoredReligions>
+
+	<LoadingInfo>
+			<Row LeaderType="LEADER_FGO_RED_HARE" ForegroundImage="LEADER_FGO_RED_HARE_NEUTRAL2" BackgroundImage="LEADER_FGO_RED_HARE_BACKGROUND_LOAD" PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_FGO_RED_HARE"/>
+		</LoadingInfo>
+		<DiplomacyInfo>
+			<Row Type="LEADER_FGO_RED_HARE" BackgroundImage="LEADER_FGO_RED_HARE_BACKGROUND"/>
+		</DiplomacyInfo>
+
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_FGO_RED_HARE_UNIQUE" ModifierId="AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_FGO_RED_HARE_UNIQUE" ModifierId="AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>18</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_FGO_RED_HARE_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_FGO_RED_HARE_ANY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-18</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_FGO_RED_HARE_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_FGO_RED_HARE_ANY</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_FGO_RED_HARE_EMPEROR_EX_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_FGO_RED_HARE_EMPEROR_EX_DENOUNCED_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+</GameData>

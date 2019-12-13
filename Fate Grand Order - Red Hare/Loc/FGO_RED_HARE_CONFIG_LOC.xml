@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FGO_RED_HARE_CONFIG_LOC -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 12/13/2019 11:26:38 AM -->
+<GameData>
+
+	<BaseGameText>
+
+		<Row Tag="LOC_LEADER_FGO_RED_HARE_NAME" >
+			<Text>Red Hare</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_NAME" >
+			<Text>Thousand Mile Sprint</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_DESC" >
+			<Text>All units +4 movement.</Text>
+		</Row>
+
+
+
+	</BaseGameText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_LEADER_FGO_RED_HARE_NAME" Language="zh_Hans_CN" >
+			<Text>赤兔马</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_NAME" Language="zh_Hans_CN">
+			<Text>千里疾行</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_DESC" Language="zh_Hans_CN">
+			<Text>所有单位+4移动力。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_LEADER_FGO_RED_HARE_NAME" Language="zh_Hant_HK" >
+			<Text>赤兔馬</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_NAME" Language="zh_Hant_HK">
+			<Text>千里疾行</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FGO_RED_HARE_THOUSAND_MILE_SPRINT_DESC" Language="zh_Hant_HK">
+			<Text>所有單位+4移動力。 </Text>
+		</Row>
+
+
+
+
+	</LocalizedText>
+
+</GameData>
